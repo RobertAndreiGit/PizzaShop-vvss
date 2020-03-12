@@ -3,6 +3,7 @@ C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\repository\PaymentRepo
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\gui\KitchenGUI.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\model\MenuDataModel.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\controller\OrdersGUIController.java
+C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\repository\IPaymentRepository.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\model\Payment.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\service\PaymentOperation.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\service\PaymentAlert.java
@@ -11,4 +12,5 @@ C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\repository\MenuReposit
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\Main.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\gui\OrdersGUI.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\controller\KitchenGUIController.java
+C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\repository\IMenuRepository.java
 C:\Users\Robert\Desktop\PizzaShop\src\main\java\pizzashop\controller\MainGUIController.java

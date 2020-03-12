@@ -20,7 +20,7 @@ public class KitchenGUIController {
     public static  ObservableList<String> order = FXCollections.observableArrayList();
     private Object selectedOrder;
     private Calendar now = Calendar.getInstance();
-    private String extractedTableNumberString = new String();
+    private String extractedTableNumberString;
     private int extractedTableNumberInteger;
     //thread for adding data to kitchenOrderList
     public  Thread addOrders = new Thread(new Runnable() {
@@ -46,6 +46,20 @@ public class KitchenGUIController {
         //starting thread for adding data to kitchenOrderList
         addOrders.setDaemon(true);
         addOrders.start();
+
+        cook.setDisable(true);
+        ready.setDisable(true);
+
+        kitchenOrdersList.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+            if (newSelection != null) {
+                cook.setDisable(false);
+                ready.setDisable(false);
+            }
+            else{
+                cook.setDisable(true);
+                ready.setDisable(true);
+            }
+        });
         //Controller for Cook Button
         cook.setOnAction(event -> {
             selectedOrder = kitchenOrdersList.getSelectionModel().getSelectedItem();

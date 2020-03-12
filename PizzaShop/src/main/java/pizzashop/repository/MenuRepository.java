@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class MenuRepository {
+public class MenuRepository implements IMenuRepository{
     private static String filename = "data/menu.txt";
     private List<MenuDataModel> listMenu;
 
@@ -44,6 +44,7 @@ public class MenuRepository {
         return item;
     }
 
+    @Override
     public List<MenuDataModel> getMenu(){
         readMenu();//create a new menu for each table, on request
         return listMenu;

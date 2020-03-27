@@ -33,3 +33,5 @@ a
 1src/main/java/pizzashop/service/PaymentAlert.java,9\0\902001140ed6ee8dd55076f5d2572971ee237995
 l
 <src/main/java/pizzashop/controller/KitchenGUIController.java,f\1\f113d329464de76aa1074faec3e0f9b726224347
+m
+=src/test/java/pizzashop/repository/PaymentRepositoryTest.java,c\5\c592a8c69fcaa017313e880a273136188f2dbb06

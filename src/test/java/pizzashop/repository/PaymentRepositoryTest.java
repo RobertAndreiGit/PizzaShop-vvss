@@ -25,7 +25,7 @@ class PaymentRepositoryTest {
         payments.add(new Payment(1, PaymentType.Card, 15));
         payments.add(new Payment(5, PaymentType.Card, 1));
         payments.add(new Payment(0, PaymentType.Card, 15));
-        payments.add(new Payment(5, PaymentType.Card, -1));
+        payments.add(new Payment(5, PaymentType.Card, 0));
 
         paymentRepository = new PaymentRepository();
     }

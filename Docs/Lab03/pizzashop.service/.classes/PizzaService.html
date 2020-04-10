@@ -1,0 +1,126 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: PizzaService</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">pizzashop.service</a> ]
+</div>
+
+<h1>Coverage Summary for Class: PizzaService (pizzashop.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">PizzaService</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (4/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    94.1%
+  </span>
+  <span class="absValue">
+    (16/ 17)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package pizzashop.service;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import pizzashop.model.MenuDataModel;
+<i>4</i>&nbsp;import pizzashop.model.Payment;
+<i>5</i>&nbsp;import pizzashop.model.PaymentType;
+<i>6</i>&nbsp;import pizzashop.repository.IMenuRepository;
+<i>7</i>&nbsp;import pizzashop.repository.IPaymentRepository;
+<i>8</i>&nbsp;import pizzashop.repository.MenuRepository;
+<i>9</i>&nbsp;import pizzashop.repository.PaymentRepository;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;import java.util.List;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;public class PizzaService {
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;    private IMenuRepository menuRepo;
+<i>16</i>&nbsp;    private IPaymentRepository payRepo;
+<i>17</i>&nbsp;
+<b class="fc"><i>18</i>&nbsp;    public PizzaService(MenuRepository menuRepo, PaymentRepository payRepo){</b>
+<b class="fc"><i>19</i>&nbsp;        this.menuRepo=menuRepo;</b>
+<b class="fc"><i>20</i>&nbsp;        this.payRepo=payRepo;</b>
+<b class="fc"><i>21</i>&nbsp;    }</b>
+<i>22</i>&nbsp;
+<b class="nc"><i>23</i>&nbsp;    public List&lt;MenuDataModel&gt; getMenuData(){return menuRepo.getMenu();}</b>
+<i>24</i>&nbsp;
+<b class="fc"><i>25</i>&nbsp;    public List&lt;Payment&gt; getPayments(){return payRepo.getAll(); }</b>
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;    public void addPayment(int table, PaymentType type, double amount){
+<b class="fc"><i>28</i>&nbsp;        Payment payment= new Payment(table, type, amount);</b>
+<b class="fc"><i>29</i>&nbsp;        payRepo.add(payment);</b>
+<b class="fc"><i>30</i>&nbsp;    }</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    public double getTotalAmount(PaymentType type){
+<b class="fc"><i>33</i>&nbsp;        double total=0.0f;</b>
+<b class="fc"><i>34</i>&nbsp;        List&lt;Payment&gt; l=getPayments();</b>
+<b class="fc"><i>35</i>&nbsp;        if ((l==null) ||(l.size()==0)) return total;</b>
+<b class="fc"><i>36</i>&nbsp;        for (Payment p:l){</b>
+<b class="fc"><i>37</i>&nbsp;            if (p.getType().equals(type))</b>
+<b class="fc"><i>38</i>&nbsp;                total+=p.getAmount();</b>
+<b class="fc"><i>39</i>&nbsp;        }</b>
+<b class="fc"><i>40</i>&nbsp;        return total;</b>
+<i>41</i>&nbsp;    }
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-04-05 19:55</div>
+</div>
+</body>
+</html>

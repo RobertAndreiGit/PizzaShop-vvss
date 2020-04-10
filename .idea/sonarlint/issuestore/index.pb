@@ -35,3 +35,5 @@ l
 <src/main/java/pizzashop/controller/KitchenGUIController.java,f\1\f113d329464de76aa1074faec3e0f9b726224347
 m
 =src/test/java/pizzashop/repository/PaymentRepositoryTest.java,c\5\c592a8c69fcaa017313e880a273136188f2dbb06
+e
+5src/test/java/pizzashop/service/PizzaServiceTest.java,f\4\f496bf34deff9b910e5c4b5fdd20fe2b239503b3

@@ -26,6 +26,7 @@ class PizzaServiceTestIntegration {
     @BeforeAll
     public static void setUp(){
         payRepo = new PaymentRepository();
+        payRepo.getAll().clear();
         menuRepo = new MenuRepository();
         service = new PizzaService(menuRepo, payRepo);
         validator = new VPayment();

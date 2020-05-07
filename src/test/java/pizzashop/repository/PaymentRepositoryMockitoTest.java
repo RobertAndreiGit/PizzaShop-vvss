@@ -18,12 +18,13 @@ class PaymentRepositoryMockitoTest {
     @BeforeAll
     public static void setUp(){
         payRepo = new PaymentRepository();
+        payRepo.getAll().clear();
         payment = mock(Payment.class);
     }
 
     @AfterEach
     public void clear(){
-        payRepo = new PaymentRepository();
+        payRepo.getAll().clear();
     }
 
     @Test

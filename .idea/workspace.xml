@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/validators/VPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestMockito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PizzaShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PizzaShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c592a8c69fcaa017313e880a273136188f2dbb06" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c592a8c69fcaa017313e880a273136188f2dbb06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f496bf34deff9b910e5c4b5fdd20fe2b239503b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f496bf34deff9b910e5c4b5fdd20fe2b239503b3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,19 +43,22 @@
     <session id="-2012435774">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,35 +69,35 @@
           <entry key="class" value="1" />
           <entry key="fxml" value="3" />
           <entry key="gui" value="1" />
-          <entry key="java" value="50" />
+          <entry key="java" value="60" />
           <entry key="png" value="1" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="14" />
           <entry key="uml" value="3" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="50" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="60" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="UML" value="10" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1923" />
-          <entry key="txt" value="31" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="3490" />
+          <entry key="txt" value="32" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1923" />
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="3490" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -98,34 +107,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="150">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1941#1942#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="34" column="67" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/menu.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="17">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,11 +130,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryMockitoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="52" column="70" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="70" />
+            <state relative-caret-position="297">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,28 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,10 +166,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="30">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestMockito.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/validators/VPayment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/validators/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -195,9 +226,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -232,17 +263,22 @@
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/repository/IMenuRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pizzashop/repository/IPaymentRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/payments.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryMockitoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzashop/validators/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pizzashop/validators/VPayment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestMockito.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -259,11 +295,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="154" />
-    <option name="y" value="68" />
-    <option name="width" value="1936" />
-    <option name="height" value="1022" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-149" />
+    <option name="y" value="-19" />
+    <option name="width" value="1694" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectId" id="1XnhPHuHkT7dDVekFl0PHbtY2Gs" />
   <component name="ProjectView">
@@ -272,7 +308,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +324,7 @@
               <item name="PizzaShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShop" type="462c0819:PsiDirectoryNode" />
               <item name="Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShop" type="b2602c69:ProjectViewProjectNode" />
@@ -342,6 +377,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PizzaShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PizzaShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,6 +396,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PizzaShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PizzaShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShop" type="b2602c69:ProjectViewProjectNode" />
@@ -411,6 +464,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -422,7 +476,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586509217625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588878119835" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/Lab03" />
@@ -442,6 +496,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robert\Desktop\PizzaShop\Docs\Lab03" />
       <recent name="C:\Users\Robert\Desktop\PizzaShop\Docs\Lab02" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
     </key>
@@ -465,51 +520,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaServiceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pizzashop.Main" />
-      <module name="PizzaShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pizzashop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pizzashop.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pizzashop.repository" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.repository.PaymentRepositoryTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pizzashop.service.PizzaService" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PizzaServiceTest.TC2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PizzaServiceTestIntegration">
+    <configuration name="PizzaServiceTestIntegration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
@@ -518,8 +530,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="TC2" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestIntegration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTestIntegration.add_step2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestIntegration" />
+      <option name="METHOD_NAME" value="add_step2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTestMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestMockito" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTestMockito.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestMockito" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTestMockito.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestMockito" />
+      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -553,17 +625,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.PizzaShop [exec:java]" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.PaymentRepositoryTest" />
-      <item itemvalue="JUnit.PizzaServiceTest" />
-      <item itemvalue="JUnit.PizzaServiceTest.TC2" />
+      <item itemvalue="JUnit.PizzaServiceTestMockito.add" />
+      <item itemvalue="JUnit.PizzaServiceTestMockito.getAll" />
+      <item itemvalue="JUnit.PizzaServiceTestMockito" />
+      <item itemvalue="JUnit.PizzaServiceTestIntegration.add_step2" />
+      <item itemvalue="JUnit.PizzaServiceTestIntegration" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PizzaServiceTest" />
-        <item itemvalue="JUnit.PizzaServiceTest.TC2" />
-        <item itemvalue="JUnit.PaymentRepositoryTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PizzaServiceTestIntegration" />
+        <item itemvalue="JUnit.PizzaServiceTestIntegration.add_step2" />
+        <item itemvalue="JUnit.PizzaServiceTestMockito" />
+        <item itemvalue="JUnit.PizzaServiceTestMockito.getAll" />
+        <item itemvalue="JUnit.PizzaServiceTestMockito.add" />
       </list>
     </recent_temporary>
   </component>
@@ -591,44 +665,48 @@
       <workItem from="1585304254836" duration="3692000" />
       <workItem from="1586102249832" duration="2966000" />
       <workItem from="1586352416865" duration="188000" />
-      <workItem from="1586507450294" duration="1439000" />
+      <workItem from="1586507450294" duration="1622000" />
+      <workItem from="1586509674012" duration="1345000" />
+      <workItem from="1587559776927" duration="1985000" />
+      <workItem from="1587822321358" duration="171000" />
+      <workItem from="1588865979845" duration="10315000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 49m 58s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestMockito_getAll - 2020.05.07 at 20h 17m 01s.xml">
+      <configuration name="PizzaServiceTestMockito.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 50m 05s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestMockito - 2020.05.07 at 20h 37m 45s.xml">
+      <configuration name="PizzaServiceTestMockito" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 14s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestMockito - 2020.05.07 at 20h 38m 02s.xml">
+      <configuration name="PizzaServiceTestMockito" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 30s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration_add_step2 - 2020.05.07 at 20h 52m 51s.xml">
+      <configuration name="PizzaServiceTestIntegration.add_step2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 45s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration_add_step2 - 2020.05.07 at 20h 53m 41s.xml">
+      <configuration name="PizzaServiceTestIntegration.add_step2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 50s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration - 2020.05.07 at 20h 56m 02s.xml">
+      <configuration name="PizzaServiceTestIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 55s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration - 2020.05.07 at 20h 56m 25s.xml">
+      <configuration name="PizzaServiceTestIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 51m 59s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration - 2020.05.07 at 20h 57m 01s.xml">
+      <configuration name="PizzaServiceTestIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 53m 27s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration - 2020.05.07 at 20h 57m 30s.xml">
+      <configuration name="PizzaServiceTestIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PizzaServiceTest - 2020.04.05 at 19h 53m 47s.xml">
-      <configuration name="PizzaServiceTest" configurationId="JUnit" />
+    <history-entry file="PizzaServiceTestIntegration - 2020.05.07 at 20h 57m 52s.xml">
+      <configuration name="PizzaServiceTestIntegration" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27667000" />
+    <option name="totallyTimeSpent" value="41666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,10 +718,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38646054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -653,7 +731,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.45986986" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30694142" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -674,6 +752,38 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38646054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30694142" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22559653" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarLint" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -733,16 +843,16 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/mainFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/kitchenGUIFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="83" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="83" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,8 +862,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OrdersGUIFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/14-ea+4/javafx-base-14-ea+4-win.jar!/com/sun/javafx/event/EventDispatchChainImpl.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -936,24 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/IPaymentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4097">
-          <caret line="264" column="12" selection-start-line="264" selection-start-column="12" selection-end-line="264" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -967,16 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -984,23 +1070,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/menu.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/payments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="2040">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1011,6 +1084,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="264" column="12" selection-start-line="264" selection-start-column="12" selection-end-line="264" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1018,27 +1105,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/menu.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/payments.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1941#1942#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/validators/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/validators/VPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="52" column="70" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="70" />
+        <state relative-caret-position="200">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestMockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
         </state>
       </provider>
     </entry>

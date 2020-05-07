@@ -16,7 +16,7 @@ public class PaymentRepository implements IPaymentRepository{
 
     public PaymentRepository(){
         this.paymentList = new ArrayList<>();
-        readPayments();
+        //readPayments();
     }
 
     private void readPayments(){
